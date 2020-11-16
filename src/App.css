@@ -1,0 +1,49 @@
+.row.content {
+  height: 550px;
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+  width: 80px;
+}
+.space {
+  width: 100px;
+  border-right: 1px solid black;
+}
+.header1 {
+  border-bottom: 1px solid lightgrey;
+}
+
+.header2 {
+  border-bottom: 1px solid lightgrey;
+}
+
+#myModal {
+  border: 1px solid red;
+  display: block;
+  overflow: auto;
+}
+
+.modalSection1 {
+  position: relative;
+  width: 329px;
+  height: 389px;
+  border: 1px solid black;
+}
+
+.modalSection2 {
+  /* position: relative; */
+  left: 350px;
+  width: 500px;
+  height: 389px;
+  border: 1px solid red;
+}
+
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (max-width: 767px) {
+  .row.content {
+    height: auto;
+  }
+}
